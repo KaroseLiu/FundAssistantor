@@ -1,0 +1,9 @@
+
+<div class="grid-view" ng-controller="fa.controller.grid">
+	<div class="row">
+		<div ng-repeat="faItem in faData">
+			<div information-template info-data="faItem" class="col-md-3"></div>
+		</div>
+	</div>	
+	<button class="btn btn-small btn-success" ng-click="refreshDataByMantually()">刷新</button>
+</div>

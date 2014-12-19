@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app='fa'>
+<head>
+	<title>Fund Assistantor</title>
+  <link rel="stylesheet" type="text/css" href="/css/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/css/fa.css">
+  <script src="/lib/angular.js"></script>
+  <script src="/lib/angular-ui-router.js"></script>
+  <script src="/lib/angular-resource.js"></script>
+  <script src="/lib/jquery/jquery-1.9.1.js"></script>
+  <script src="/js/controllers.js"></script>
+  <script src="/js/directives.js"></script>
+  <script src="/js/services.js"></script>
+  <script src="/js/app.js"></script>
+</head>
+<body>
+	<header>
+
+    <h1>Fund Assistantor</h1>
+    
+    <ul class="nav nav-tabs">
+		  <li role="presentation" class="active">
+		  	<a ui-sref="gridView">Grid View</a>
+		  </li>
+		  <li role="presentation">
+		  	<a ui-sref="graphView">Graph View</a>
+		  </li>
+		</ul>
+
+  </header>
+  
+  <div class="content" ng-controller="fa.controller.index">   
+    <div ui-view></div> 
+  </div>
+</body>
+</html>
