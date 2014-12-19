@@ -6,7 +6,7 @@ Helpful for your Fund.
 Getting Started
 ---------------
 
-Once you have installed them, clone my repository:
+Clone my repository:
 		
 		git clone https://github.com/KaroseLiu/FundAssistantor.git
 		cd FundAssistantor
